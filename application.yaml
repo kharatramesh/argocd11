@@ -11,8 +11,8 @@ spec:
     targetRevision: HEAD
     path: dev
   destination: 
-    server: https://172.190.29.144:31220
-    namespace: project1
+    server: https://kubernetes.default.svc
+    namespace: project2
 
   syncPolicy:
     syncOptions:
