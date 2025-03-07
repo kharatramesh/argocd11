@@ -18,7 +18,7 @@ spec:
         app: app1
     spec:
       containers:
-      - image: kharatramesh/vadapavimages:biryani
+      - image: kharatramesh/vadapavimages:vadapav
         name: httpd
         volumeMounts:
         - name: v1
