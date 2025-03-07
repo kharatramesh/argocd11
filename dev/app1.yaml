@@ -23,7 +23,7 @@ spec:
         volumeMounts:
         - name: v1
           mountPath: /logs
-  volumes:
-  - name: v1
-    persistentVolumeClaim:
-      claimName: azure-managed-disk
+      volumes:
+      - name: v1
+        persistentVolumeClaim:
+          claimName: azure-managed-disk
