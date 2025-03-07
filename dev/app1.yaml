@@ -20,4 +20,10 @@ spec:
       containers:
       - image: kharatramesh/vadapavimages:pavbhaji
         name: httpd
-       
+        volumeMounts:
+        - name: v1
+          mountPath: /data
+      volumes:
+      - name: v1
+        persistentVolumeClaim:
+          claimName: pvc1
