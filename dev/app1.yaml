@@ -18,6 +18,6 @@ spec:
         app: app1
     spec:
       containers:
-      - image: kharatramesh/vadapavimages:vadapav
+      - image: kharatramesh/vadapavimages:pavbhaji
         name: httpd
        
